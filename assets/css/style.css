@@ -1,25 +1,30 @@
 /* header stlyles */
 
-.navbar{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: baseline;
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-nav ul li{
-  padding: 2px;
+nav ul li {
+    padding: 20px;
+}
+
+ul li a{
+    text-decoration: none;
 }
 
 /* hero styles */
-.hero{
+.hero {
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -27,45 +32,96 @@ nav ul li{
     align-items: center;
 }
 
+.hero h2{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero p{
+    padding: 10px;
+    color: #111111;
+}
+
+.hero a{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #1E5128;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
 /* about styles */
-.about{
+.about {
     height: 20vh;
     display: flex;
 }
 
-.about-text{
+.about-text {
     flex-basis: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: black;
+    font-weight: 500;
 }
 
 /* services style */
-.services{
-    padding: 12vh 0;
+.services {
+    padding: 8vh 0;
     display: flex;
     justify-content: space-between;
 }
 
-.service{
+.service {
     flex-basis: 30%;
+    border-radius: 2%;
+    padding: 20px 10px;
+    box-shadow: 2px 2px 10px black;
 }
 
+.service:first-child{
+    color: #1E5128;
+    background-color: #FFFFFF;
+}
+
+.service:nth-child(2){
+    color: #FFFFFF;
+    background-color: #1E5128;
+}
+
+.service:last-child{
+    color: #1E5128;
+    background-color: #D8E9A8;
+}
+
+
+
+
 /* about-us styles */
-.about-us{
+.about-us {
     padding: 8vh 0;
     display: flex;
 }
 
-.title{
-    flex-basis: 40%;
+.title {
+    flex-basis: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
+    font-weight: 500;
+}
+
+.subject{
+    padding: 40px;
+    color: #FFFFFF;
+    background-color: #1E5128;
+    border-radius: 10px;
 }
 
 /* contact-us styles */
-.contact-us{
+.contact-us {
     display: flex;
     flex-direction: column;
     justify-content: center;
