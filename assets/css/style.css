@@ -16,13 +16,22 @@ nav ul {
 }
 
 nav ul li {
-    padding: 20px;
+    padding: 40px 20px;
 }
 
 ul li a{
     text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
 
+nav ul li:last-child{
+    background-image: url("../images/🦆\ icon\ _leaf_.png");
+    background-position: right top;
+}
+
+nav ul li:last-child a{
+    color: #FFFFFF;}
 /* hero styles */
 .hero {
     height: 40vh;
