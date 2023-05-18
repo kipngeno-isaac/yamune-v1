@@ -19,19 +19,21 @@ nav ul li {
     padding: 40px 20px;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
 
-nav ul li:last-child{
+nav ul li:last-child {
     background-image: url("../images/🦆\ icon\ _leaf_.png");
     background-position: right top;
 }
 
-nav ul li:last-child a{
-    color: #FFFFFF;}
+nav ul li:last-child a {
+    color: #FFFFFF;
+}
+
 /* hero styles */
 .hero {
     height: 40vh;
@@ -41,18 +43,18 @@ nav ul li:last-child a{
     align-items: center;
 }
 
-.hero h2{
+.hero h2 {
     padding: 20px;
     font-size: 40px;
     font-weight: 700;
 }
 
-.hero p{
+.hero p {
     padding: 10px;
     color: #111111;
 }
 
-.hero a{
+.hero a {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #1E5128;
@@ -89,17 +91,17 @@ nav ul li:last-child a{
     box-shadow: 2px 2px 10px black;
 }
 
-.service:first-child{
+.service:first-child {
     color: #1E5128;
     background-color: #FFFFFF;
 }
 
-.service:nth-child(2){
+.service:nth-child(2) {
     color: #FFFFFF;
     background-color: #1E5128;
 }
 
-.service:last-child{
+.service:last-child {
     color: #1E5128;
     background-color: #D8E9A8;
 }
@@ -122,7 +124,7 @@ nav ul li:last-child a{
     font-weight: 500;
 }
 
-.subject{
+.subject {
     padding: 40px;
     color: #FFFFFF;
     background-color: #1E5128;
@@ -137,34 +139,49 @@ nav ul li:last-child a{
     align-items: center;
 }
 
-.contact-us h2{
+.contact-us h2 {
     font-weight: 700;
     color: black;
     font-size: 40px;
     padding: 20px;
 }
 
-form{
-   color: black; 
-   font-weight: 500;
-   width: 60%;
+form {
+    color: black;
+    font-weight: 500;
+    width: 60%;
 }
 
-input{
+input {
     margin-top: 10px;
     padding: 10px;
+    border: 0.5px solid #D9D9D9;
     border-radius: 5px;
 }
 
-form div{
+textarea {
+    margin-top: 10px;
+    padding: 10px;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+form div {
     display: flex;
     flex-direction: column;
 }
 
-form button{
+form button {
     color: #FFFFFF;
-background-color: #1E5128;
-padding: 10px 20px;
-margin: 10px auto;
-border-radius: 5px;
+    background-color: #1E5128;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
